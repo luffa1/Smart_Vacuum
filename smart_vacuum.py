@@ -8,10 +8,10 @@ from flask import Flask, request, jsonify
 from flask_talisman import Talisman
 
 # ---- CONFIGURATION ----
-EMAIL_SENDER = "enter_your_mail@gmail.com"
-RECIPIENT_EMAIL = "enter_your_recipient_mail"
-EMAIL_USERNAME = "your_username"
-EMAIL_PASSWORD = "your_password"
+EMAIL_SENDER = "your-email@example.com"
+RECIPIENT_EMAIL = "your-recipient-email@example.com"
+EMAIL_USERNAME = "your-username"
+EMAIL_PASSWORD = "your-app-password"
 SMTP_SERVER = "smtp.mailtrap.io"
 SMTP_PORT = 2525
 SECRET_KEY = "SuperSecretKey"
